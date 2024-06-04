@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+.topContent{
+    color: white;
+    position: relative;
+}
+
+.topContent__container{
+    position: absolute;
+    top:300px;
+    right: 150px; 
+}
+
+.topContent__container>p{
+    letter-spacing: 1px;
+    text-align:left;
+    padding-left: 3px;
+    /* margin-left: 3px; */
+    padding-top: 5px;
+}
+
+.topContent__container > a > button{
+    margin-top: 5px;
+    text-align: left;
+    margin-left: 5px; 
+    border: none;
+    border-radius: 2px;
+    outline:none;  
+}
+
+.topContent__container>h1{
+    font-size:50px;
+    font-family: "Montserrat",sans-serif;
+}
+
+
+.topContent__downloadButton{
+    color:white;
+    background-color: #f64c08;
+    font-size: 14px;
+    padding: 9px 35px;
+    font-size:"Montserrat",sans-serif ;
+    font-weight:300;
+    cursor: pointer;
+    margin-right: 20px;
+    border: 1px solid wheat !important;
+}
+
+.topContent__workButton{
+    color:white;
+    border: 1px solid wheat !important;
+    background-color: transparent;
+    font-size: 14px;
+    padding:9px 35px;
+    font-family:"Montserrat",sans-serif ;
+    cursor: pointer;
+}
+
+.topContent__downloadButton:hover{
+    color:#f64c08;
+    background-color: white;
+    font-weight: 300;
+    border: 1px solid #f64c08 !important;
+}
+
+.topContent__workButton:hover{
+    color: black;
+    background-color: white;
+    font-weight: 300;
+    border: 1px solid #f64c08 !important;
+}
